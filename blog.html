@@ -1,39 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | dear.sharu</title>
+  <meta name="description" content="Writings about thoughts, growth, and quiet observations." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
 <body>
+  <!-- Navigation -->
   <nav class="navbar">
-    <h2 class="logo">Sharanya</h2>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
+    <div class="container-wide">
+      <a href="index.html" class="logo">dear.sharu</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
   </nav>
 
-  <section>
-  <header class="major">
-    <h2>Blog</h2>
-  </header>
+  <!-- Blog Section -->
+  <main class="blog-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>All Writings</h2>
+        <p>Essays, reflections, and quiet musings</p>
+        <div class="section-divider"></div>
+      </div>
 
-  <article>
-    <h3>
-      <a href="posts/the-door-i-left-unopened.html">
-        The Door I Left Unopened
-      </a>
-    </h3>
-    <p class="post-meta">Jan 2025 · 5 min read</p>
-    <p>
-      A reflection on childhood dreams and the lives we don’t choose.
-    </p>
-  </article>
+      <div class="posts-list">
+        <article class="post-card">
+          <h3><a href="posts/the-door-i-left-unopened.html">The Door I Left Unopened</a></h3>
+          <p class="post-meta">January 2025 &middot; 5 min read</p>
+          <p class="post-excerpt">
+            A reflection on childhood dreams and the lives we don't choose.
+            As a child, I wanted to be everything at once. An astronaut. A designer. A pastry chef.
+            Somewhere along the way, I chose one door and quietly closed the others.
+          </p>
+          <a href="posts/the-door-i-left-unopened.html" class="read-more">Continue reading</a>
+        </article>
 
-  <article>
-    <h3>
-      <a href="posts/soft-crimes-in-friendship.html">
-        Soft Crimes in Friendship
-      </a>
-    </h3>
-    <p class="post-meta">Dec 2024 · 6 min read</p>
-    <p>
-      The quiet ways friendships hurt without anyone meaning to.
-    </p>
-  </article>
-</section>
+        <article class="post-card">
+          <h3><a href="posts/soft-crimes-in-friendship.html">Soft Crimes in Friendship</a></h3>
+          <p class="post-meta">December 2024 &middot; 6 min read</p>
+          <p class="post-excerpt">
+            Not all hurt in friendships comes from betrayal. Some of it comes from silence,
+            neglect, and moments we don't realize matter. This piece is about the small things
+            we do or don't do that leave marks, even when love is present.
+          </p>
+          <a href="posts/soft-crimes-in-friendship.html" class="read-more">Continue reading</a>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Made with <span class="footer-heart">&#9829;</span> by Sharanya</p>
+    </div>
+  </footer>
+</body>
+</html>
