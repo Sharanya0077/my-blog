@@ -33,7 +33,7 @@ and calm visual structure.
 - **CSS3**
 - **Git & GitHub**
 - **Netlify** (deployment)
-- **HTML5 UP – Editorial** (customized open-source template)
+  
 
 ---
 
